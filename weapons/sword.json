@@ -1,0 +1,8 @@
+{
+    "name": "sword",
+    "price" : 20,
+    "weight" : 2,
+    "size": 0,
+    "damagaeLow" : 1,
+    "damageHigh" : 6
+}

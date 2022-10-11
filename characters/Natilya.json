@@ -1,0 +1,15 @@
+{
+    "name" : "Natilya",
+    "strength" : 11,
+    "intelligence" : 15,
+    "wisdom" : 14,
+    "dexterity" : 15, 
+    "constitution" : 14, 
+    "charisma" : 16,
+    "race" : "Nymph",
+    "p_class" : "Druid",
+    "level" : 1,
+    "max_hp" : 24,
+    "movement" : 30,
+    "xp" :0
+}

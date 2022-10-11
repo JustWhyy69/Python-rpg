@@ -1,3 +1,5 @@
+import json
+
 class Character():
     def _init_(self):  
         self.name = "Player"
@@ -18,6 +20,25 @@ class Character():
         self.type ="" 
         self.current_weapon = "fist"
         self.current_armor = ""
+
+    def load_from_json(self, path):
+        with open(path) as f:
+            character = json.load(f)
+        print (character)
+        self.name = character.get("name")
+        self.strength = character.get("strength")
+        self.intelligence = character.get("intelligence")
+        self.wisdom = character.get("wisdom")
+        self.dexterity = character.get("dexterity")
+        self.constitution = character.get("constitution")
+        self.charisma = character.get("charisma")
+        self.race = character.get("race")
+        self.p_class = character.get("p_class")
+        self.level = character.get("level")
+        self.max_hp = character.get("max_hp")
+        self.movement = character.get("movement")
+        self.xp = character.get("xp")
+
     
     def set_current_weapon(self):
         pass
